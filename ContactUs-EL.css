@@ -1,0 +1,141 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.contact{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(ContactUs_photo1.png);
+	background-size: center;
+}
+.contact .content{
+	max-width: 800px;
+	text-align: center;
+}
+.contact .content h3{
+	font-size: 36px;
+	font-weight: 600;
+	color: #000c33;
+
+}
+.contact .content p{
+	font-weight: 500;
+	color: #000;
+
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+.container .ContactInfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.container .ContactInfo .Box{
+	position: relative;
+	padding: 20px 0;
+	display: flex;
+}
+.container .ContactInfo .Box .icon{
+	min-width: 60px;
+	height: 60px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	font-size: 22px;
+}
+.container .ContactInfo .Box .text{
+	display: flex;
+	margin-left: 16px;
+	color: #fff;
+	flex-direction: column;
+	font-weight: 300;
+
+}
+.container .ContactInfo .Box .text h3{
+	font-weight: 600;
+	color: #fff
+	
+
+}
+.ContactForm{
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+	border-radius: 8px;
+}
+.ContactForm h2{
+	font-size: 30px;
+	color: #1a1a1a;
+	font-weight: 500;
+}
+.ContactForm .InputBox{
+	position: relative;
+	width: 100%;
+	margin-top: 0px;
+}
+.ContactForm .InputBox input,
+.ContactForm .InputBox textarea {
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #1a1a1a;
+	outline: none;
+	resize: none;
+
+}
+.ContactForm .InputBox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #333;
+
+}
+.ContactForm .InputBox input:foucs ~ span,
+.ContactForm .InputBox input:valid ~ span,
+.ContactForm .InputBox textarea:foucs ~ span,
+.ContactForm .InputBox textarea:valid ~ span
+{
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+
+}
+.ContactForm .InputBox input[type="submit"]{
+	width: 100px;
+	background: #4d4dff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+
+
+}
+
+
+
+
+
+color: #001433;
